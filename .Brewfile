@@ -33,7 +33,7 @@ cask 'slack'
 cask 'visual-studio-code'
 cask 'cursor'
 cask 'iterm2'
-cask 'notion'
+cask 'obsidian'
 cask 'karabiner-elements'
 cask 'font-hack-nerd-font'
 
