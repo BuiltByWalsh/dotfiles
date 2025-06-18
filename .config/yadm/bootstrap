@@ -57,14 +57,6 @@ fi
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 #-----------------------------------------
-# Download catpuccin themes for iTerm2
-#-----------------------------------------
-echo "Now cloning into catppuccin/iterm.git."
-echo "You will still need to select the downloaded theme in iTerm once open."
-
-git clone https://github.com/catppuccin/iterm.git ~/.config/iterm2/themes
-
-#-----------------------------------------
 # Start background apps
 #-----------------------------------------
 
