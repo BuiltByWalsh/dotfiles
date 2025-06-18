@@ -7,6 +7,7 @@
 	rebase = true
 [rebase]
 	autoStash = true
+	updateRefs = true
 [push]
 	autoSetupRemote = true
 [pager]
@@ -18,8 +19,13 @@
 	wip = commit -am "WIP"
 	st = status
 	sm = "!sm() { git switch main && git pull origin main; };sm"
+	rebm = rebase main
 	s = switch
 	sc = switch -c
+# reuse recorded resolution: https://git-scm.com/book/en/v2/Git-Tools-Rerere
+[rerere]
+	enabled = true
+	autoupdate = true
 [url "git@github.com:"]
 	insteadOf = https://github.com/
 [includeIf "gitdir:~/dev/work/"]
