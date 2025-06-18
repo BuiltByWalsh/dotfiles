@@ -32,12 +32,8 @@ cask 'rectangle'
 cask 'slack'
 cask 'visual-studio-code'
 cask 'cursor'
-cask 'bruno'
 cask 'iterm2'
 cask 'notion'
-cask 'notion-calendar'
-cask 'zoom'
-cask 'arc'
 cask 'karabiner-elements'
 cask 'font-hack-nerd-font'
 
@@ -45,9 +41,3 @@ cask 'font-hack-nerd-font'
 # Docker
 #-----------------------------------------
 cask 'docker'
-
-#-----------------------------------------
-# NodeJS
-#-----------------------------------------
-brew 'pnpm'
-brew 'yarn'
