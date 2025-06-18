@@ -12,6 +12,12 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 #-----------------------------------------
+# Aliases - Node.js
+#-----------------------------------------
+alias nr="npm run"
+alias pn="pnpm"
+
+#-----------------------------------------
 # Aliases - Docker
 #-----------------------------------------
 alias dc="docker-compose"
