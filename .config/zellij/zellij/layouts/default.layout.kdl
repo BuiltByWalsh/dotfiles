@@ -1,0 +1,20 @@
+layout {
+  pane split_direction="vertical" {
+    pane {
+      name "Workbench"
+    }
+    pane split_direction="horizontal" {
+      pane {
+        name "Dev Server"
+        command "zsh"
+        args "-c" "pnpm install && pnpm dev"
+      }
+      pane {
+        name "Tests"
+        command "zsh"
+        args "-c" "pnpm test:unit"
+      }
+    }
+  }
+}
+
