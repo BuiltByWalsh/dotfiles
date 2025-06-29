@@ -3,7 +3,6 @@
 #-----------------------------------------
 tap 'homebrew/bundle'
 tap 'homebrew/services'
-tap 'oven-sh/bun'
 tap 'font-hack-nerd-font'
 tap 'jesseduffield/lazygit/lazygit'
 
