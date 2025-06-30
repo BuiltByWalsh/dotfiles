@@ -21,6 +21,7 @@ brew 'ripgrep'
 brew 'lazygit'
 brew 'fzf'
 brew 'fd'
+brew 'ripgrep'
 
 brew 'coreutils'
 brew 'asdf'
