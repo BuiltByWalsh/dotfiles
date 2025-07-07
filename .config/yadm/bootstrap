@@ -17,7 +17,7 @@ if [ -f "$HOME/.Brewfile" ]; then
 fi
 
 #-----------------------------------------
-# Create common directores
+# Create common directories
 #-----------------------------------------
 
 if [ ! -d "$HOME/dev/work" ]; then
@@ -40,21 +40,6 @@ if [ ! -d "$ZSH" ]; then
 fi
 
 source ~/.zshrc
-
-#-----------------------------------------
-# Install NVM
-#-----------------------------------------
-
-if [ ! -d "$HOME/.nvm" ]; then
-  echo "➡️ Installing nvm..."
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh)"
-fi
-
-#-----------------------------------------
-# Install TMUX Package Manager
-#-----------------------------------------
-
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 #-----------------------------------------
 # Start background apps
