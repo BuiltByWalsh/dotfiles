@@ -43,7 +43,7 @@ alias personal="cd ~/dev/personal"
 #-----------------------------------------
 # Aliases - LazyGit
 #-----------------------------------------
-alias lg="lazygit"
+alias gg="lazygit"
 
 #-----------------------------------------
 # NVM
@@ -85,31 +85,20 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 #-----------------------------------------
 # PNPM
+# ? NOTE: there are many ways to install PNPM. This will likely be device specific.
 #-----------------------------------------
-export PNPM_HOME="/Users/jameswalsh/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-
-#-----------------------------------------
-# 1Password SSH
-#-----------------------------------------
-export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
-source /opt/homebrew/opt/asdf/libexec/asdf.sh
-eval "$(direnv hook zsh)"
-eval
-
-#-----------------------------------------
-# Powerlevel 10k 
-#-----------------------------------------
-
-source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# export PNPM_HOME="/Users/jameswalsh/Library/pnpm"
+# case ":$PATH:" in
+#   *":$PNPM_HOME:"*) ;;
+#   *) export PATH="$PNPM_HOME:$PATH" ;;
+# esac
 
 #-----------------------------------------
 # ASDF
 #-----------------------------------------
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
+#-----------------------------------------
+# starship.rs
+#-----------------------------------------
+eval "$(starship init zsh)"
