@@ -3,8 +3,6 @@
 #-----------------------------------------
 tap 'homebrew/bundle'
 tap 'homebrew/services'
-tap 'font-hack-nerd-font'
-tap 'jesseduffield/lazygit/lazygit'
 
 #-----------------------------------------
 # Dev Tools
