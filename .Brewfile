@@ -23,6 +23,7 @@ brew 'fd'
 brew 'starship'
 brew 'coreutils'
 brew 'asdf'
+brew 'tealdeer'
 
 #-----------------------------------------
 # Casks
